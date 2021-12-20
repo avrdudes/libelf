@@ -80,10 +80,10 @@
 #undef __LIBELF_GNU_SYMBOL_VERSIONS
 
 /* Define to a 64-bit signed integer type if one exists */
-#define __libelf_i64_t __int64
+#define __libelf_i64_t long long
 
 /* Define to a 64-bit unsigned integer type if one exists */
-#define __libelf_u64_t unsigned __int64
+#define __libelf_u64_t unsigned long long
 
 /* Define to a 32-bit signed integer type if one exists */
 #define __libelf_i32_t int
@@ -159,3 +159,6 @@
 
 /* Define if you have the <unistd.h> header file.  */
 #undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#define HAVE_STDINT_H 1

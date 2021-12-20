@@ -45,10 +45,10 @@
 #define __LIBELF_SYMBOL_VERSIONS 1
 
 /* Define to a 64-bit signed integer type if one exists */
-#define __libelf_i64_t __int64
+#define __libelf_i64_t long long
 
 /* Define to a 64-bit unsigned integer type if one exists */
-#define __libelf_u64_t unsigned __int64
+#define __libelf_u64_t unsigned long long
 
 /* Define to a 32-bit signed integer type if one exists */
 #define __libelf_i32_t int
